@@ -1,11 +1,11 @@
-import { Wrapper } from "./styled"
+import { Wrapper, Title, SubHeader } from "./styled"
 
 const Header = () => {
     return (
         <Wrapper>
-            <Header> </Header>
-            <SubHeader> </SubHeader>
-        </Wrapper> 
+            <Title>Order summary</Title>
+            <SubHeader>Check if your order matches</SubHeader>
+        </Wrapper>
     )
 }
 
