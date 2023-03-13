@@ -5,4 +5,5 @@ export const Wrapper = styled.div`
     max-width: 540px;
     margin: 150px auto;
     padding: 50px;
+    border-radius: 30px;
 `
