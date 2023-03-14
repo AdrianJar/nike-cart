@@ -6,6 +6,10 @@ export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: 24px;
+
+    @media (max-width: 767px) {
+        padding-bottom: 125px;
+    }
 `;
 
 export const Details = styled.div`

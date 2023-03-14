@@ -6,4 +6,8 @@ export const Wrapper = styled.div`
     margin: 150px auto;
     padding: 50px;
     border-radius: 30px;
+
+    @media (max-width: 767px){
+        padding: 24px;
+    }
 `
