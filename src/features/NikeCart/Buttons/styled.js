@@ -13,18 +13,22 @@ export const Button = styled.button`
     max-width: 440px;
     width: 100%;
     padding: 18px;
-    background-color: ${({ theme }) => theme.colors.text};
-    color: ${({ theme }) => theme.colors.boxBackground};
+    background-color: ${({ theme }) => theme.colors.boxBackground};
+    color: ${({ theme }) => theme.colors.subHeader};
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1;
     border-radius: 60px;
 
-    ${({ cancel }) => cancel && css`
-        background-color: ${({ theme }) => theme.colors.boxBackground};
-        color: ${({ theme }) => theme.colors.subHeader};
+    ${({ buy }) => buy && css`
+        background-color: ${({ theme }) => theme.colors.text};
+        color: ${({ theme }) => theme.colors.boxBackground};
         font-weight: 400;
-        border: 1px solid ${({theme}) => theme.colors.border};
+        border: 1px solid ${({ theme }) => theme.colors.border};
+
+        &:hover{
+            background-color: ${({theme})=>theme.colors.subHeader};
+        }
     `}
 `;

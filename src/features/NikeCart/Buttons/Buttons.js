@@ -3,8 +3,8 @@ import { Button, Wrapper } from "./styled"
 const Buttons = () => {
     return (
         <Wrapper>
-            <Button>I confirm and pay</Button>
-            <Button cancel>Cancel Order</Button>
+            <Button buy>I confirm and pay</Button>
+            <Button>Cancel Order</Button>
         </Wrapper>
     )
 
